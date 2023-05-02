@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.tudo{
+    width: 900px;
+    height: 500px;
+
+    box-shadow: 5px 5px 10px rgb(141, 141, 141);
+    border-radius: 30px;
+
+    display: flex;
+
+
+
+}
+
+.your-result{
+    width: 450px;
+    height: 500px;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgb(104, 24, 179);
+
+
+}
+
+.resultado{
+    font-size: 20px;
+    padding: 1em ;
+    color: rgb(217, 218, 219);
+}
+
+.circulo{
+    border-radius: 50%;
+
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.circulo .number-top{
+    align-items: center;
+}
