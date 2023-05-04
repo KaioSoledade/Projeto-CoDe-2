@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100vh;
+    font-family: 'Raleway', sans-serif;
 
 
 }
@@ -35,27 +36,52 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 
     background-color: rgb(104, 24, 179);
+ 
 
 
 }
 
 .resultado{
     font-size: 20px;
-    padding: 1em ;
+    padding: 1em;
+    margin: 0 auto;
     color: rgb(217, 218, 219);
+
+    align-items: center;
+
+    height: 100px;
 }
 
 .circulo{
     border-radius: 50%;
+    height: 150px;
+    width: 150px;
 
-    height: 100px;
-    width: 100px;
+    margin-bottom: 50px;
+
     background-color: aqua;
+    color: azure;
 }
 
-.circulo .number-top{
+.circulo p{
     align-items: center;
+    display: flex;
+    justify-content: center;
+
+    margin: 35px auto ;
+    width: 30px;
+    height: 80px;
+}
+
+
+.bom-trabalho{
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    font-size: 18px;
+    padding: 1em;
+    color: rgb(217, 218, 219);
 }
