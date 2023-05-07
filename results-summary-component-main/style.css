@@ -92,8 +92,8 @@ main{
 
 
 .bom-trabalho{
-    margin: 30px 0 25px 0;
-    width: 400px;
+    margin: 10px 0 25px 0;
+    width: 350px;
     height: 100px;
     align-items: center;
     font-size: 18px;
@@ -141,6 +141,23 @@ main{
     color: rgb(0, 139, 139);
     font-weight: bold;
     border-radius: 10px;  
+}
+
+.sumario .filho1:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+.sumario .filho2:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+.sumario .filho3:hover{
+    scale: 1.05;
+    transition: 0.5s;
+}
+.sumario .filho4:hover{
+    scale: 1.05;
+    transition: 0.5s;
 }
 
 .sumario .filho1, .filho2, .filho3, .filho4{
@@ -199,4 +216,11 @@ main{
     align-items: center;
 
     font-size: 20px;
+}
+
+.sumario input:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.7s;
 }
